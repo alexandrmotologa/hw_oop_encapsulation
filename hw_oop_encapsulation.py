@@ -10,7 +10,6 @@ class Weather():
         import calendar
         mm = calendar.month_abbr[self.date['month']]
 
-        
         return f"\nWHEATHER [{self.date['day']}. {mm}. {self.date['year']}],\n\n\
         \rTEMPERATURE:\n\
         \rMinimum {self.temperature['minTemp']}C,\n\
